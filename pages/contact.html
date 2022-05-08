@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,10 +13,34 @@
         <ul>
             <li><a href="" class="logo">MovieMax</a></li>
             <li><a href="/pages/account.html" class="href" >ACCOUNT</a></li>
-            <li><a href="/pages/contact.html" class="href" style="color: green;">CONTACT</a></li>
+            <li><a href="/pages/contact.html" class="href" style=" color: green;">CONTACT</a></li>
             <li><a href="/pages/blog.html" class="href">BLOG</a></li>
             <li><a href="" class="href">HOME</a></li>
         </ul>
     </nav>
+    <br/>
+    <div class="heading">
+        <center>
+            <h1>Have Some Questions?</h1>
+        </center>
+    </div>
+    <center>
+    <div class="container">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <select id="country" name="country" >
+            <option value="australia">--Region--</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">Sri Lanka</option>
+          </select>
+      
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <button>Submit</button>
+      </div>
+    </center>
 </body>
 </html>
