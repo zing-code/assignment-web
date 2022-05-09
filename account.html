@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/account.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="" class="logo">MovieMax</a></li>
+            <li><a href="account.html" class="href" style="color: green;">ACCOUNT</a></li>
+            <li><a href="contact.html" class="href">CONTACT</a></li>
+            <li><a href="blog.html" class="href">BLOG</a></li>
+            <li><a href="index.html" class="href">HOME</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-page">
+        <div class="form">
+          <form class="login-form">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="signup.html">Create an account</a></p>
+          </form>
+        </div>
+      </div>
+      <script>
+          $('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+      </script>
+</body>
+</html>
